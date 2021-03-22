@@ -1,0 +1,43 @@
+.sponsored {
+  display: flex;
+  max-width: 150px;
+  background-color: black;
+}
+
+.sponsored__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsored__content {
+  flex: 1 0 auto;
+}
+
+.sponsored__cover {
+  width: 151px;
+}
+
+.sponsored {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sponsored:hover {
+  background-color: lightgray;
+}
+
+.sponsored > h4 {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.sponsored > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: #2e81f4;
+}
+
+.sidebarRight__sponsored > .MuiCard-root {
+  width: 100px !important;
+}
